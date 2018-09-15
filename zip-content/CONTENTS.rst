@@ -10,8 +10,8 @@ Variants
 
 Common
 ------
-- **files/priv-app/GmsCore.apk** => microG Service Core 0.2.5.12879 (on Android >= 5)
-- **files/priv-app-kk/GmsCore.apk** => microG Service Core 0.2.4-81 (on Android < 5)
+- **files/priv-app/GmsCore.apk** => microG Service Core 0.2.5.12879-1-906b1f9 (on Android >= 5)
+- **files/priv-app-kk/GmsCore.apk** => microG Service Core 0.2.5.12879-1-906b1f9 (on Android < 5)
 - **files/priv-app/GoogleServicesFramework.apk** => microG Services Framework Proxy 0.1.0
 - **files/priv-app/DroidGuard.apk** => microG DroidGuard Helper 0.1.0-10
 

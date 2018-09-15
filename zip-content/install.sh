@@ -148,8 +148,8 @@ set_perm 0 0 0755 "$TMP_PATH/addon.d/00-1-microg.sh"
 
 # Verifying
 ui_msg_sameline_start 'Verifying... '
-if verify_sha1 "$TMP_PATH/files/priv-app/GmsCore.apk" '33e5eaa5bb22d96224fab41456369e07a0d32537' &&
-   verify_sha1 "$TMP_PATH/files/priv-app-kk/GmsCore.apk" '52890ef5d04abd563fa220725708fd2bc48e894e' &&  # ToDO: Remove when bug #379 is fixed
+if verify_sha1 "$TMP_PATH/files/priv-app/GmsCore.apk" '87e12fdd2010477a2421fe34e65a8c214f8774c3' &&
+   verify_sha1 "$TMP_PATH/files/priv-app-kk/GmsCore.apk" '87e12fdd2010477a2421fe34e65a8c214f8774c3' &&  # ToDO: Remove when bug #379 is fixed
    verify_sha1 "$TMP_PATH/files/priv-app/GoogleServicesFramework.apk" 'f9907df2e2c8fd20cd2e928821641fa01fca09ce' &&
    verify_sha1 "$TMP_PATH/files/priv-app/DroidGuard.apk" 'fa6267bee3f73d248d1110be53d66736aa4fece0' &&
    verify_sha1 "$TMP_PATH/files/app/NewPipe.apk" 'bccda7d68d2b63518b7ea53f697e96d308d1c180' &&
